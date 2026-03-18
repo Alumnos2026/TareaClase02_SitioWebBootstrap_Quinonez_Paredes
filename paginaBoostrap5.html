@@ -9,6 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             background-color: white;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -99,13 +104,13 @@
                             <a class="nav-link active" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nosotros</a>
+                            <a class="nav-link" href="#firstxt">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contácto</a>
+                            <a class="nav-link" href="#contacto">Contactanos</a>
                         </li>
                     </ul>
                 </div>
@@ -129,11 +134,11 @@
                             </font>
                         </font>
                     </p>
-                    <p> <a href="#" class="btn btn-primary my-2">
+                    <p> <a href="#firstxt" class="btn btn-primary my-2">
                             <font dir="auto" style="vertical-align: inherit;">
                                 <font dir="auto" style="vertical-align: inherit;">Mas información</font>
                             </font>
-                        </a> <a href="#" class="btn btn-secondary my-2">
+                        </a> <a href="#contacto" class="btn btn-secondary my-2">
                             <font dir="auto" style="vertical-align: inherit;">
                                 <font dir="auto" style="vertical-align: inherit;">¡Contactenos!</font>
                             </font>
@@ -142,8 +147,7 @@
             </div>
         </section>
         <div class="separador"></div>
-        <div class="b-example-divider"></div>
-        <div class="album py-5 bg-body-tertiary">
+        <div class="album py-5 bg-body-tertiary" id="proyectos">
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
@@ -237,7 +241,7 @@
     <div id="firstxt" class="container-fluid">
         <div class="overlay">
             <div class="contenido1">
-                <h2>¿Quiénes somos?</h2>
+                <h2 >¿Quiénes somos?</h2>
                 <p>
                     Somos <strong>YULESTEY CONSTRUCTORA S.A.</strong>, una empresa guatemalteca dedicada
                     al diseño y construcción de proyectos modernos, seguros y sostenibles.
@@ -256,7 +260,7 @@
     <div class="separador"></div>
     <br>
     <h2 style="text-align: center;">Contactanos</h2>
-<div class="container-fluid">
+<div class="container-fluid" id="contacto">
 <div class="mb-3">
   <label for="formGroupExampleInput" class="form-label">Nombre</label>
   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Juan Perez">
