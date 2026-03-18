@@ -68,7 +68,11 @@
         .bg-beige {
             background-color: rgb(139, 147, 154) !important;
         }
-       
+       .card:hover {
+            transform: scale(1.10); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3); 
+       }
     </style>
 
 </head>
@@ -150,16 +154,11 @@
 
                             <div class="card-body">
                                 <p class="card-text">
-                                    Esta es una tarjeta más ancha
-                                    con texto explicativo debajo, que sirve de introducción natural a contenido
-                                    adicional. Este contenido es un poco más extenso.
+                                   Brindamos un servicio completo y bien estructurado orientado a retirar ripio y desperdicio de cualquier tipo con maquinaria especializada.
                                 </p>
                             </div>
                         </div>
                     </div>
-
-
-
                     <div class="col">
                         <div class="card shadow-sm">
                             <!-- Imagen con altura fija de 225px -->
@@ -168,9 +167,7 @@
 
                             <div class="card-body">
                                 <p class="card-text">
-                                    Esta es una tarjeta más ancha
-                                    con texto explicativo debajo, que sirve de introducción natural a contenido
-                                    adicional. Este contenido es un poco más extenso.
+                                Contamos comn el servicio mas completo del mercado en el enfoque de asfaltado de cualquier indole en cualqueir punto del pais.    
                                 </p>
                             </div>
                         </div>
@@ -179,14 +176,12 @@
                     <div class="col">
                         <div class="card shadow-sm">
                             <!-- Imagen con altura fija de 225px -->
-                            <img src="ruta/tu-imagen.jpg" class="card-img-top" alt="Miniatura"
+                            <img src="/imagenes/escuela.jpg" class="card-img-top" alt="Miniatura"
                                 style="height:225px; object-fit:cover;">
 
                             <div class="card-body">
                                 <p class="card-text">
-                                    Esta es una tarjeta más ancha
-                                    con texto explicativo debajo, que sirve de introducción natural a contenido
-                                    adicional. Este contenido es un poco más extenso.
+                                    Contamos con el servicio de remozamiento de viviendas, edificios, escuela o cualquier edificacion que usted necesite trabajando baja contrato.
                                 </p>
                             </div>
                         </div>
@@ -195,14 +190,12 @@
                     <div class="col">
                         <div class="card shadow-sm">
                             <!-- Imagen con altura fija de 225px -->
-                            <img src="ruta/tu-imagen.jpg" class="card-img-top" alt="Miniatura"
+                            <img src="/imagenes/camion.jpg" class="card-img-top" alt="Miniatura"
                                 style="height:225px; object-fit:cover;">
 
                             <div class="card-body">
                                 <p class="card-text">
-                                    Esta es una tarjeta más ancha
-                                    con texto explicativo debajo, que sirve de introducción natural a contenido
-                                    adicional. Este contenido es un poco más extenso.
+                                    Brindamos el serivio que usted necesite con uso de camiones altamente operativos y de ultimo modelo con pilotos especializados y experimentados.
                                 </p>
                             </div>
                         </div>
@@ -211,14 +204,12 @@
                     <div class="col">
                         <div class="card shadow-sm">
                             <!-- Imagen con altura fija de 225px -->
-                            <img src="ruta/tu-imagen.jpg" class="card-img-top" alt="Miniatura"
+                            <img src="/imagenes/manomica.jpg" class="card-img-top" alt="Miniatura"
                                 style="height:225px; object-fit:cover;">
 
                             <div class="card-body">
                                 <p class="card-text">
-                                    Esta es una tarjeta más ancha
-                                    con texto explicativo debajo, que sirve de introducción natural a contenido
-                                    adicional. Este contenido es un poco más extenso.
+                                    Rentamos cualquier clase de equipo y maquinaria para contruccion de alta exigerncia, manos de mica, retro escabadora etc...
                                 </p>
                             </div>
                         </div>
@@ -227,14 +218,12 @@
                     <div class="col">
                         <div class="card shadow-sm">
                             <!-- Imagen con altura fija de 225px -->
-                            <img src="ruta/tu-imagen.jpg" class="card-img-top" alt="Miniatura"
+                            <img src="/imagenes/dragado.jpg" class="card-img-top" alt="Miniatura"
                                 style="height:225px; object-fit:cover;">
 
                             <div class="card-body">
                                 <p class="card-text">
-                                    Esta es una tarjeta más ancha
-                                    con texto explicativo debajo, que sirve de introducción natural a contenido
-                                    adicional. Este contenido es un poco más extenso.
+                                   Brindamos un servicio especializado para el dragado de rios con cualquier fin, ya sea obtencion de material o estetica de rios.
                                 </p>
                             </div>
                         </div>
@@ -263,7 +252,45 @@
         </div>
     </div>
     </div>
+    <div class="separador"></div>
+<div class="container-fluid">
 
+
+<div class="mb-3">
+  <label for="formGroupExampleInput" class="form-label">Nombre</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Juan Perez">
+</div>
+    <div class="mb-3">
+  <label for="formGroupExampleInput" class="form-label">Correo Electronico</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="@gmail.com">
+</div>
+<div class="mb-3">
+  <label for="formGroupExampleInput2" class="form-label">Celular</label>
+  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="2345-7654">
+</div>
+<br>
+    <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+  <label class="form-check-label" for="checkDefault">
+    Default checkbox
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+  <label class="form-check-label" for="checkChecked">
+    Checked checkbox
+  </label>
+</div>
+<br>
+    <select class="form-select" aria-label="Default select example">
+  <option selected>Servicio previsto a contratar</option>
+  <option value="1">Ripio o dragado</option>
+  <option value="2">Contratacion de maquinas</option>
+  <option value="3">Servicio completo</option>
+  <option value="3">Otro servicio...</option>
+</select>
+
+</div>
 
 
 
